@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>quan ly danh sach</title>
+    <link rel="stylesheet" href="CSS-cau-3.css">
+</head>
+<body>
+<h1>Quản lý danh sách</h1>
+<label><input type="Text" id="bookCode-el" placeholder="Mã Số Sách"></label><br>
+<label><input type="Text" id="bookName-el" placeholder="Tên Sách "></label><br>
+<label><input type="text" id="releasedYear-el" placeholder="Năm Xuấn Bản"></label><br>
+<label><input type="text" id="qualities-el" placeholder="Số Quyển "></label><br>
+<label><input type="text" id="status-el" placeholder="tình trạng"> </label><br>
+<button id="addBookQuality-el" onclick="addBookQuality()">Thêm Sách Đã Có</button>
+
+<button id="addNewBook-el" onclick="addNewBook()">Thêm Sách Mới</button>
+
+<button id="borrowingBook-el">Mượn Sách</button>
+
+<button id="displayMostBookQuality-el">Hiển Thị Sách Nhiều Nhất</button>
+
+
+<table id="ManagementTable">
+<tr>
+    <th>Mã Số Sách</th>
+    <th>Tên Sách</th>
+    <th>Năm Xuấn Bản</th>
+    <th>Số Quyển</th>
+    <th>Tình Trạng</th>
+</tr>
+</table>
+    <script src="Cau3Class.js"></script>
+    <script src="cau3.js"></script>
+</body>
+</html>
+
