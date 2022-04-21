@@ -21,7 +21,7 @@ function updateProductList() {
     let tableDraw = "";
     for (let i = 0; i < productList._ProductList.length; i++) {
         tableDraw += `<tr>
-                        <td>${productList._ProductList._bookCode}</td>
+                        <td>${productList._ProductList[i]._bookCode}</td>
                         <td>${productList._ProductList[i]._bookName}</td>
                         <td>${productList._ProductList[i]._releasedYear}</td>
                         <td>${productList._ProductList[i]._qualities}</td>
